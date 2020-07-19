@@ -1,0 +1,103 @@
+
+@media screen and (max-width: 768px) {
+    .home {
+        background: url('../images/bg-hero-mobile.svg');
+    }
+
+    #showcase article,
+    #showcase aside,
+    section article,
+    section .sidebar {
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #showcase article {
+        padding-right: 0;
+        margin-bottom: 75px;
+    }
+    #showcase article h2 {
+        font-size: 3em;
+    }
+    #showcase article p {
+        font-size: 1.75em;
+        margin-top: 30px;
+    }
+
+    main {
+        padding: 50px 0;
+    }
+    section {
+        width: 96%;
+    }
+    section article,
+    section .sidebar {
+        padding: 5% 10%;
+    }
+    section article h3 {
+        font-size: 2em;
+    }
+    section article p {
+        font-size: 1.25em;
+    }
+    section img {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer-top-box {
+        width: 70%;
+        top: 60px;
+        margin: 0 auto;
+    }
+
+    footer .f-image {
+        margin: 0;
+        margin-top: 50px;
+    }
+    .f-contact,
+    .f-link,
+    .f-social,
+    .f-link ul {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin: 40px 0;
+        min-height: 25px;
+    }
+    .f-contact {
+        padding: 0;
+    }
+    .contact-box .text {
+        margin-left: 50px;
+    }
+    .f-link ul {
+        float: none;
+        margin: 0;
+    }
+    .f-social ul .link i {
+        font-size: 1.75em;
+        padding: 10px;
+    }
+    .f-copyright {
+        margin: 0 0;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    
+    #logo,
+    #try {
+        float: none;
+        width: 100%;
+        text-align: center;
+        margin: 30px auto;
+    }
+    #logo img {
+        display: inline-block;
+        width: 200px;
+    }
+}
